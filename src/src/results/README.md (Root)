@@ -1,1 +1,53 @@
+# Co-Sign Language: AI-Powered Eye Communication System for ALS Patients
+
+**Developer:** Sharl Michael Effat Habib  
+**Affiliation:** Independent Researcher – Cornell University (Ongoing ARXIV Publication)  
+**Languages & Frameworks:** Python, TensorFlow, Keras, OpenCV  
+
+---
+
+## 🩺 Overview
+Co-Sign Language is an AI-based assistive system designed to translate **eye movements into speech** for ALS and motor-impaired patients.  
+It combines **Vision Transformers (ViT)**, **Kalman filtering**, and a **Non-Intentionality Suppression (NIS)** algorithm to distinguish intentional from unintentional eye movements.
+
+- 🧩 **98% gaze detection accuracy**  
+- ⚡ **Real-time communication** at 20+ words/min  
+- 💡 **Cost-effective hardware**: <$50 smart glasses prototype  
+- 🧑‍💻 Research-focused, aiming for scalable, inclusive assistive AI
+
+---
+
+## ⚙️ Key Features
+- Vision Transformer model for grayscale eye images  
+- Kalman filtering for stabilizing gaze detection  
+- NIS-based algorithm to filter involuntary blinks  
+- Lightweight pipeline suitable for embedded systems  
+- Data augmentation to increase robustness
+
+---
+
+## 🧬 Model Architecture
+- Input: `(224, 224, 1)` grayscale eye image  
+- Patch size: `7x7` → 1024 patches  
+- Transformer layers: 12  
+- Multi-head attention: 8 heads  
+- MLP head units: [128, 64]  
+- Dropout: 0.1  
+- Output: 6-class softmax classification for different intentional commands
+
+---
+
+## 📊 Results
+| Metric      | Value        |
+|------------|-------------|
+| Accuracy    | 98%          |
+| Precision   | 96%          |
+| Recall      | 97%          |
+| Latency     | <100ms/frame |
+
+> **Note:** Full dataset and trained model weights are not publicly shared yet due to ongoing ARXIV publication.
+
+---
+
+## 📁 Repository Structure
 
