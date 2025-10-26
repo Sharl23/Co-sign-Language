@@ -15,7 +15,7 @@ The system employs **Vision Transformers (ViT)** for gaze detection, **Kalman Fi
 ---
 
 ## 🚀 Key Features
-- 🔹 **98.3% gaze detection accuracy** validated across 3 diverse user groups (able-bodied, hearing-impaired, ALS patients).  
+- 🔹 **98.8% gaze detection accuracy** validated across 3 diverse user groups (able-bodied, hearing-impaired, ALS patients).  
 - 🔹 **20+ words per minute** real-time communication speed.  
 - 🔹 **Ultra-low hardware cost (<$50)** using readily available components.  
 - 🔹 **Lightweight architecture**, deployable on microcontrollers and Raspberry Pi.  
@@ -36,7 +36,7 @@ The system employs **Vision Transformers (ViT)** for gaze detection, **Kalman Fi
 
 | Metric | Result | Description |
 |--------|---------|-------------|
-| Gaze Detection Accuracy | **98.3%** | On curated test dataset |
+| Gaze Detection Accuracy | **98.8%** | On curated test dataset |
 | Communication Speed | **20.4 WPM** | Real-time eye-to-speech synthesis |
 | System Latency | **<100 ms** | Full inference pipeline |
 | Comfort Rating | **9.2 / 10** | Based on user evaluation |
